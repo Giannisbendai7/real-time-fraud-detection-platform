@@ -4,3 +4,16 @@ __pycache__/
 .env
 data/raw/
 data/processed/
+
+# MLflow local artifacts
+mlruns/
+mlflow.db
+
+# Logs and JVM crash reports
+logs/
+hs_err_pid*.log
+
+# Python and test caches
+.pytest_cache/
+
+airflow/config/airflow.cfg

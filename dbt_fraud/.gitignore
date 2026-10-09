@@ -1,0 +1,16 @@
+
+target/
+dbt_packages/
+logs/
+.env
+
+# MLflow local artifacts
+mlruns/
+mlflow.db
+
+# Logs and JVM crash reports
+logs/
+hs_err_pid*.log
+
+# Python and test caches
+.pytest_cache/
