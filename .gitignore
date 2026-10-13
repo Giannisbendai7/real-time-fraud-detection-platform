@@ -17,3 +17,15 @@ hs_err_pid*.log
 .pytest_cache/
 
 airflow/config/airflow.cfg
+
+!mlruns/
+!mlruns/1/
+!mlruns/1/f36d4d33f41b468890ffe5e57cce24dd/
+!mlruns/1/f36d4d33f41b468890ffe5e57cce24dd/artifacts/
+!mlruns/1/f36d4d33f41b468890ffe5e57cce24dd/artifacts/random_forest_model/
+!mlruns/1/f36d4d33f41b468890ffe5e57cce24dd/artifacts/random_forest_model/**
+
+# Hadoop/Spark checksum files
+*.crc
+
+_SUCCESS
